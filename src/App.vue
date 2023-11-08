@@ -1,9 +1,11 @@
 <script setup>
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
 </script>
 
 <template>
   <div>
+    <AppHero/>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
